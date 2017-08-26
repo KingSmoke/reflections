@@ -1,0 +1,50 @@
+lesson_1_reflections.txt
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to go through the text without switching between two different documents and that was helpful. 
+I was able to see the error because the visual differences stood out.
+It is much easier to use this FC file comparison command than to 
+go through two files.
+https://sites.google.com/site/reflection4learning/why-reflect
+http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow's%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I could see the program as smaller parts and work in a planed way on one part at a time.
+I could see what code needs imediate attention and
+see what code can be done by other people.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+Automatic saves won't capture the logical points
+in the coding process. Manual saves can be done after
+a point is reached in which there is one logical
+change from the previous file.
+
+Why do you think some version control systems, 
+like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+I think Git is designed this way because a program
+might consist of multiple related files that have to be 
+considered together, for example HTML and CSS.
+
+How can you use the commands git log and git diff to view the history of files?
+I was confused until I learned that 
+"By default, with no arguments, git log lists the commits made
+ in that repository in reverse chronological order"
+from https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+Now the order that the intructor copied the ID's makes sense.
+And the color-coded additions/deletions make for easy understanding
+of the changes made.
+
+How might using version control make you more confident to make changes that could break something?
+It is confidence-inspiring to know that I can revert to a previous version and even compare
+the code to know where a change was introduced. Still, it can be tedious and difficult
+to track down the commit where the change was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I have Python projects and I want to learn Angular. I might use Git to manage my
+fiction writing also. A novel could be held as a repository...
+
+COMMANDS
+git log
+git diff 25ede836903881848fea811df5b687b59d962da3 df035382c41b4d0cda86a1aa30b53f15bef05b53
+git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6
