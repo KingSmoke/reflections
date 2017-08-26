@@ -5,4 +5,7 @@ git can manage the multiple copied of the files in the repository.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains the files that would be added to the repository if and when a commit is made.
 Maybe it is valuable because it lets you decide what changes are logically related to each other,
-and therefore useful to combine in a single commit. 
+and therefore useful to combine in a single commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use "git diff --staged" to see what has changed between the staging area and the last commit. And that lets you see whether or not the change is a single logical "chunk."
